@@ -43,3 +43,4 @@ C:\Users\Лама\source\repos\lab8\lab8\obj\Debug\postgr.Form1.resources
 C:\Users\Лама\source\repos\lab8\lab8\obj\Debug\lab8.csproj.CopyComplete
 C:\Users\Лама\source\repos\lab8\lab8\obj\Debug\lab8.aboutForm.resources
 C:\Users\Лама\source\repos\lab8\lab8\obj\Debug\lab8.journalForm.resources
+C:\Users\Лама\source\repos\lab8\lab8\obj\Debug\lab8.dataForm.resources

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using postgr;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -19,7 +20,15 @@ namespace lab8
 
         private void journalComboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if (journalComboBox.SelectedIndex != null)
+            {
+                string tempItem = journalComboBox.SelectedItem.ToString();
+                DataTable dataTemp = PG.selectAll(tempItem);
+                dataGridViewJournal.DataSource = dataTemp;
 
+                dataGridViewJournal.Visible = true;
+                PG.resizeTable(dataGridViewJournal, this);
+            }
         }
     }
 }

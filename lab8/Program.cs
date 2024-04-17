@@ -54,7 +54,7 @@ namespace postgr
             else MessageBox.Show("NOT Connected!");
         }
 
-        public static void resizeTable(DataGridView dataGridTemp, Form1 formTemp)
+        public static void resizeTable(DataGridView dataGridTemp, Form formTemp)
         {
             // изменяем размер таблицы под её содержимое
             dataGridTemp.AutoResizeColumns();

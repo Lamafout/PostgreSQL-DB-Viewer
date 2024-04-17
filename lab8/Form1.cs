@@ -68,7 +68,8 @@ namespace postgr
 
         private void operationsButton_Click(object sender, EventArgs e)
         {
-
+            dataForm form = new dataForm();
+            form.Show();
         }
 
         private void blackBoxButton_Click(object sender, EventArgs e)
